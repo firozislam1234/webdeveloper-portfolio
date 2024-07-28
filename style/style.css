@@ -1,1 +1,51 @@
 *{margin:0; padding: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Zain:wght@200;300;400;700;800;900&display=swap');
+body{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+/* shayer style css */
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+}
+/* nav related css */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight:800px;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50PX;
+    text-transform: capitalize;
+}
+nav button{
+    text-transform: capitalize;
+    padding: 5px 15px;
+    border:none
+}
+nav a{
+    color: #474747;
+    text-decoration: none;
+}
+/* header related style */
+.header-section{
+    background-color: #fff8f3;
+}
