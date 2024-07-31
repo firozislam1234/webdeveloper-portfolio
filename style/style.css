@@ -14,8 +14,14 @@ body{
 .btn-primary{
     border-radius: 5px;
     background-color: #FD6E0A;
+    text-transform: capitalize;
+    padding: 5px 15px;
+    border:none
 }
-/* nav related css */
+.btn-primary:hover{
+    cursor: pointer;
+}
+/* nav related css start */
 nav{
     display: flex;
     align-items: center;
@@ -36,11 +42,6 @@ nav li{
     margin-left: 50PX;
     text-transform: capitalize;
 }
-nav button{
-    text-transform: capitalize;
-    padding: 5px 15px;
-    border:none
-}
 nav a{
     color: #474747;
     text-decoration: none;
@@ -48,4 +49,38 @@ nav a{
 /* header related style */
 .header-section{
     background-color: #fff8f3;
+}
+/* bannar related style */
+.banner{
+    padding:30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    justify-content: space-between;
+   
+}
+.bannar-content{
+    max-width: 500px;
+}
+.bannar-content h3{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.bannar-content h1{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 85px;
+    font-weight: 700;
+}
+.bannar-content p{
+    padding-bottom: 15px;
+}
+.hardy-pic{
+    width: 500px;
+    float: left;
 }
